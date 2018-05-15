@@ -1,0 +1,26 @@
+# /etc/conf.d/worldGreenCoind: config file for /etc/init.d/worldGreenCoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/worldGreenCoin/worldGreenCoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/worldGreenCoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/worldGreenCoind.pid"
+
+# Where to write worldGreenCoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/worldGreenCoind"
+
+# User and group to own worldGreenCoind process
+#BITCOIND_USER="worldGreenCoin"
+#BITCOIND_GROUP="worldGreenCoin"
+
+# Path to worldGreenCoind executable
+#BITCOIND_BIN="/usr/bin/worldGreenCoind"
+
+# Nice value to run worldGreenCoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

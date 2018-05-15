@@ -1,0 +1,26 @@
+[Unit]
+Description=WGC's distributed currency daemon
+After=network.target
+
+[Service]
+User=Worldgreencoin
+Group=worldgreencoin
+
+Type=forking
+PIDFile=/var/lib/worldGreenCoind/worldGreenCoind.pid
+
+ExecStart=/usr/bin/worldGreenCoind -daemon -pid=/var/lib/worldGreenCoind/worldGreenCoind.pid \
+          -conf=/etc/worldGreenCoin/worldGreenCoin.conf -datadir=/var/lib/worldGreenCoind
+
+ExecStop=-/usr/bin/worldGreenCoin-cli -conf=/etc/worldGreenCoin/worldGreenCoin.conf \
+         -datadir=/var/lib/worldGreenCoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

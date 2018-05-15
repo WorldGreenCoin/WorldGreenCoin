@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WGC
+Comment=WGC P2P Cryptocurrency
+Exec=Worldgreencoin-qt %u
+Terminal=false
+Type=Application
+Icon=Worldgreencoin128
+MimeType=x-scheme-handler/worldGreenCoin;
+Categories=Office;Finance;
+Name[en_US]=worldGreenCoin-qt.desktop

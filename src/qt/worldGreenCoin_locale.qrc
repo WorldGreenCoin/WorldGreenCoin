@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/worldGreenCoin_bg.qm</file>
+        <file alias="de">locale/worldGreenCoin_de.qm</file>
+        <file alias="en">locale/worldGreenCoin_en.qm</file>
+        <file alias="es">locale/worldGreenCoin_es.qm</file>
+        <file alias="fi">locale/worldGreenCoin_fi.qm</file>
+        <file alias="fr">locale/worldGreenCoin_fr.qm</file>
+        <file alias="it">locale/worldGreenCoin_it.qm</file>
+        <file alias="ja">locale/worldGreenCoin_ja.qm</file>
+        <file alias="pl">locale/worldGreenCoin_pl.qm</file>
+        <file alias="pt">locale/worldGreenCoin_pt.qm</file>
+        <file alias="ru">locale/worldGreenCoin_ru.qm</file>
+        <file alias="sk">locale/worldGreenCoin_sk.qm</file>
+        <file alias="sv">locale/worldGreenCoin_sv.qm</file>
+        <file alias="vi">locale/worldGreenCoin_vi.qm</file>
+        <file alias="zh_CN">locale/worldGreenCoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/worldGreenCoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
